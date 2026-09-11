@@ -37,7 +37,7 @@ Measured on the 36 labelled replies in `public/demo/replies.json` (`docs/EVALS-L
 | Model only (claude-haiku-4-5) | 0.89 | 36 |
 | Rules first, model only when rules are unsure | 1.00 | 3 |
 
-Two honest caveats. The rules were tuned on this same set, so the rules-only number is flattering; the model comparison is the fairer read of the method. And when the model rewrote 14 drafts for the demo, the fact checker rejected 2 (amount 99,636.65 does not match the ledger / does not ask for a confirmation with the numbered options). Those drafts are still in the demo, marked as failing, and cannot be approved until a person fixes them. That is exactly what the check is there for.
+Two honest caveats. The rules were tuned on this same set, so the rules-only number is flattering; the model comparison is the fairer read of the method. And when the model rewrote 14 drafts for the demo, the fact checker rejected 1 (amount 99,636.65 does not match the ledger). That draft is still in the demo, marked as failing, and cannot be approved until a person fixes it. That is exactly what the check is there for.
 
 Other numbers, on the synthetic ledger (`docs/EVALS.md`):
 

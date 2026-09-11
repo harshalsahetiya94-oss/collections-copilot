@@ -32,7 +32,7 @@ for (let c = 0; c < 42; c++) {
     const roll = rnd();
     if (roll < 0.06 && dpd > 20) { status = "disputed"; disputeReason = pick(["Quantity delivered was short", "PO number missing", "Pricing differs from quote", "Goods returned in July"]); }
     else if (roll < 0.14) { status = "partially_paid"; openAmount = r2(amount * between(0.3, 0.7)); }
-    const currency = country === "UK" ? "GBP" : country === "US" ? "USD" : "EUR";
+    const currency = "EUR"; // one billing entity, one currency; the country is where the customer sits
     let lastContact = null, lastActivity = issue, dormantTruth = false;
     if (dpd > 0) {
       if (behaviour === "responsive") { lastContact = addDays(AS_OF, -Math.floor(between(1, 24))); lastActivity = lastContact; }

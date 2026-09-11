@@ -1,0 +1,146 @@
+[
+ {
+  "intent": "paid",
+  "text": "Hi, this was paid on 2 September, remittance ref RM-448812. Can you check on your side?"
+ },
+ {
+  "intent": "paid",
+  "text": "We settled INV-10412 last week, payment reference 7781-AC. Should show by Friday."
+ },
+ {
+  "intent": "paid",
+  "text": "Payment went out on 28/08/2026 via BACS. Let me know if it hasn't landed."
+ },
+ {
+  "intent": "paid",
+  "text": "All three were cleared in our payment run on 5 Sept."
+ },
+ {
+  "intent": "paid",
+  "text": "Transferred yesterday, EUR 4,250.00, ref NW-2201."
+ },
+ {
+  "intent": "promise_to_pay",
+  "text": "Apologies for the delay. This will be paid in our next payment run on 20 September."
+ },
+ {
+  "intent": "promise_to_pay",
+  "text": "We can commit to paying the full balance by end of month."
+ },
+ {
+  "intent": "promise_to_pay",
+  "text": "Cash is tight this month; we plan to clear INV-10430 next week and the rest in October."
+ },
+ {
+  "intent": "promise_to_pay",
+  "text": "Scheduled for 25th Sept, sorry for the wait."
+ },
+ {
+  "intent": "promise_to_pay",
+  "text": "Our AP will process this within 10 days once the director signs off."
+ },
+ {
+  "intent": "dispute",
+  "text": "We don't agree with this invoice. The quantity delivered was short by 40 units, so the amount is wrong."
+ },
+ {
+  "intent": "dispute",
+  "text": "This was cancelled in June and the goods were returned. We shouldn't be billed."
+ },
+ {
+  "intent": "dispute",
+  "text": "The pricing differs from what was quoted (we were quoted 1,150 not 1,400). Please issue a corrected invoice."
+ },
+ {
+  "intent": "dispute",
+  "text": "There is no PO number on INV-10455 so our system rejected it. We dispute it until it is re-issued with PO 88123."
+ },
+ {
+  "intent": "dispute",
+  "text": "Some of these items were damaged on arrival, we raised this with your driver."
+ },
+ {
+  "intent": "needs_copy",
+  "text": "I don't have a copy of these invoices. Can you resend them to accounts@example-ap.test?"
+ },
+ {
+  "intent": "needs_copy",
+  "text": "We never received INV-10470. Please send it again to me directly."
+ },
+ {
+  "intent": "needs_copy",
+  "text": "Maria left the company in July, please send all invoices to ap-team@example.test from now on."
+ },
+ {
+  "intent": "needs_copy",
+  "text": "Could you re-send the invoice with our PO number on it? Our system won't accept it without one."
+ },
+ {
+  "intent": "needs_copy",
+  "text": "Wrong email address, I'm not the right person. Try our accounts team."
+ },
+ {
+  "intent": "apply_credit",
+  "text": "Please apply the credit note CN-702 against INV-10401 and send us the updated balance."
+ },
+ {
+  "intent": "apply_credit",
+  "text": "Can you offset the unapplied cash you're holding against the oldest invoice? Then we'll pay the remainder."
+ },
+ {
+  "intent": "apply_credit",
+  "text": "Use the credit first, then tell us what's left."
+ },
+ {
+  "intent": "question",
+  "text": "Which of these relate to the Cork site? We have two accounts with you."
+ },
+ {
+  "intent": "question",
+  "text": "Can you confirm whether INV-10488 includes VAT?"
+ },
+ {
+  "intent": "question",
+  "text": "What bank details should we use, the ones on the invoice look different from before?"
+ },
+ {
+  "intent": "unclear",
+  "text": "Thanks, noted."
+ },
+ {
+  "intent": "unclear",
+  "text": "Forwarding to the relevant team."
+ },
+ {
+  "intent": "unclear",
+  "text": "Received."
+ },
+ {
+  "intent": "paid",
+  "text": "Hi Collections Team, our records show this as paid on 15 Aug, ref 2026-0815-PAY. Might be sitting in your unallocated cash."
+ },
+ {
+  "intent": "promise_to_pay",
+  "text": "Will pay by the 30th."
+ },
+ {
+  "intent": "dispute",
+  "text": "Never ordered this. Please remove it."
+ },
+ {
+  "intent": "needs_copy",
+  "text": "Do not have the invoice. Resend?"
+ },
+ {
+  "intent": "question",
+  "text": "Why are there two invoices for the same delivery?"
+ },
+ {
+  "intent": "promise_to_pay",
+  "text": "Payment run is on the 15th, it will go then."
+ },
+ {
+  "intent": "paid",
+  "text": "Already paid. Check your bank."
+ }
+]
